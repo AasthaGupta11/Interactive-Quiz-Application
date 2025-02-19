@@ -23,3 +23,5 @@ The interactive aspect of the application is further enhanced by the ability to 
 Furthermore, I used best practices in terms of accessibility and usability. I also ensured that the quiz works without requiring any additional plugins, keeping the experience lightweight and easy to access. The application can be easily expanded in the future by adding more questions, changing the design, or even incorporating a database for storing user scores. 
 
 Overall, the **Interactive Quiz Application** is a great showcase of my skills in front-end development, as it combines **HTML**, **CSS**, and **JavaScript** to create a dynamic and engaging user experience. It highlights my ability to develop responsive web applications, integrate interactive elements, and create user-friendly interfaces. This project is a testament to my capability to take a concept from inception to completion, providing an engaging experience for users while also ensuring functionality and performance.
+
+OUTPUT: ![Image](https://github.com/user-attachments/assets/69721d2a-a055-49b6-bbea-ad33e48cbc00)
