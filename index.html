@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="slide active" id="slide1">
+            <button class="start_btn" onclick="nextSlide()"> Start </button>
+        </div>
+        <div class="slide" id="slide2">
+            <h2>Time Left: <span id="time">00:00</span></h2>
+            <h3 id="question-text"> </h3>
+            <div class="options">
+                <ul class="choices">
+                    <li><input type="radio" name="option" value="0"> <span id="op1"></span></li>
+                    <li><input type="radio" name="option" value="1"> <span id="op2"></span></li>
+                    <li><input type="radio" name="option" value="2"> <span id="op3"></span></li>
+                    <li><input type="radio" name="option" value="3"> <span id="op4"></span></li>
+                </ul>
+            </div>
+            <div class="btns">
+                <button onclick="submit()" class="submit_btn" id="submit">Submit</button>
+                <button onclick="clear()" class="clear_btn" id="clear">Clear</button>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+    <!-- Include SweetAlert from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
